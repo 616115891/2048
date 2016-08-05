@@ -19,7 +19,7 @@ class ViewController: UIViewController {
     @IBAction func startGame(sender: AnyObject) {
     let controller = NumberTileGame(dimension: 4, threshold: 2048)
         self.presentViewController(controller, animated: true, completion: nil)
-        print("尼玛炸了")
+        print("哈哈")
     }
 
 }
